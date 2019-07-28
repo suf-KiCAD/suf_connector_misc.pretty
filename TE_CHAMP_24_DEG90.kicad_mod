@@ -1,4 +1,4 @@
-(module TE_CHAMP_24_DEG90 (layer F.Cu) (tedit 5C95C3A5)
+(module TE_CHAMP_24_DEG90 (layer F.Cu) (tedit 5D3E0F00)
   (fp_text reference REF** (at 0.254 17) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -38,4 +38,9 @@
   (pad 3 thru_hole circle (at -7.5565 14.097) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -9.7155 14.097) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -11.8745 14.097) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
+  (model C:/DATA/Sourcecontrol/KiCAD/suf_connector_misc.pretty/3D/centronics_a-57_24fr_kl.step
+    (offset (xyz 0 -1.8 7.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
